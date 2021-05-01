@@ -2,12 +2,18 @@
 
 I was challenged to clone UI of a website as part of assesment for a job and this is what I was able to come up with .
 
-#Steps to use
-$ npm install
-$ npm run start
+## Steps to get started
 
-This website was made with the help of:
-1)React.js
-2)javascript
-3)HTML and CSS
-4)Tailwind CSS
+- git clone https://github.com/rajatvohra/UI-challenge.git
+- cd UI-challenge
+- npm install
+- npm start
+- open localhost:3000 on a web browser .
+-
+
+## This website was made with the help of:
+
+- React.js
+- javascript
+- HTML/ CSS
+- Tailwind CSS
