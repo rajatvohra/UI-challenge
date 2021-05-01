@@ -9,7 +9,6 @@ I was challenged to clone UI of a website as part of assesment for a job and thi
 - npm install
 - npm start
 - open localhost:3000 on a web browser .
--
 
 ## This website was made with the help of:
 
