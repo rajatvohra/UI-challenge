@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  @apply h-screen-10 top-0 w-full z-50 font-poppins font-semibold;
+
+}
+.nav-logo {
+  @apply h-28 w-28 object-left ml-6 font-poppins font-semibold;
+}
+.nav-logo:hover {
+  @apply cursor-pointer font-poppins font-semibold;
+}
+.nav-content {
+  @apply flex items-center justify-between h-full font-poppins font-semibold  ;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-item {
+  @apply inline  ml-10 hover:underline font-poppins font-semibold ;
+  color: rgba(51, 51, 51, 1);
+}
+.section-dark {
+  @apply text-white font-poppins font-semibold;
+  background-color: rgba(51, 51, 51, 1);
+}
+
+.section-content {
+  @apply my-0 mx-auto p-10 font-poppins font-semibold;
+  max-width: 800px;
 }
